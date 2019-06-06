@@ -1,3 +1,48 @@
+/* Background image & states */
 body{
   text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
+.exploded {
+  background-image: url("img/explosion.jpg");
+}
+.unexploded {
+  background-image: url("img/simcity.jpg");
+}
+
+/* Main bomb container */
+
+main {
+  background-color: rgba(0, 0, 0, 0.8); 
+  border-radius: 1em;
+  padding: 0.5em;
+  width: 200px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main div:nth-child(3) {
+  /*3rd div within main*/
+  padding: 0.5em;
+}
+
+/* Timer text */
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+#timertext{
+  font-size: large;
+}
+
+/* Buttons  */
+
+button {
+  margin: 10px;
+}
+
+
